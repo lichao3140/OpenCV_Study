@@ -13,7 +13,7 @@ vector<Mat> imgs;
 //导入所有原始拼接图像函数
 void parseCmdArgs(int argc, char** argv);
 
-
+//  stitcher全景图拼接
 int main(int argc, char** argv) {
 	//导入拼接图像
 	parseCmdArgs(argc, argv);

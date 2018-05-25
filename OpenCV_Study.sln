@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_Test", "OpenCV_Test\OpenCV_Test.vcxproj", "{C08604E6-3E92-43A8-8007-8E68B0CF9B7E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_VS", "OpenCV_Test\OpenCV_Test.vcxproj", "{C08604E6-3E92-43A8-8007-8E68B0CF9B7E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_Face", "OpenCV_Face\OpenCV_Face.vcxproj", "{C724E19C-1931-4307-9D9E-20E49D92EF60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_CarNum", "OpenCV_CarNum\OpenCV_CarNum.vcxproj", "{F05FA104-EF7F-47EA-AFA1-255A735A3205}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{C08604E6-3E92-43A8-8007-8E68B0CF9B7E}.Release|x64.Build.0 = Release|x64
 		{C08604E6-3E92-43A8-8007-8E68B0CF9B7E}.Release|x86.ActiveCfg = Release|Win32
 		{C08604E6-3E92-43A8-8007-8E68B0CF9B7E}.Release|x86.Build.0 = Release|Win32
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Debug|x64.ActiveCfg = Debug|x64
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Debug|x64.Build.0 = Debug|x64
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Debug|x86.ActiveCfg = Debug|Win32
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Debug|x86.Build.0 = Debug|Win32
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Release|x64.ActiveCfg = Release|x64
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Release|x64.Build.0 = Release|x64
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Release|x86.ActiveCfg = Release|Win32
+		{C724E19C-1931-4307-9D9E-20E49D92EF60}.Release|x86.Build.0 = Release|Win32
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Debug|x64.ActiveCfg = Debug|x64
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Debug|x64.Build.0 = Debug|x64
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Debug|x86.ActiveCfg = Debug|Win32
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Debug|x86.Build.0 = Debug|Win32
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Release|x64.ActiveCfg = Release|x64
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Release|x64.Build.0 = Release|x64
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Release|x86.ActiveCfg = Release|Win32
+		{F05FA104-EF7F-47EA-AFA1-255A735A3205}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
