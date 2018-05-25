@@ -146,16 +146,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\BaseLocation.cpp" />
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\CarPlateRecongize.cpp" />
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\main.cpp" />
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\stdafx.cpp" />
+    <ClCompile Include="BaseLocation.cpp" />
+    <ClCompile Include="CarPlateRecongize.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\BaseLocation.h" />
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\CarPlateRecongize.h" />
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\stdafx.h" />
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\targetver.h" />
+    <ClInclude Include="BaseLocation.h" />
+    <ClInclude Include="CarPlateRecongize.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

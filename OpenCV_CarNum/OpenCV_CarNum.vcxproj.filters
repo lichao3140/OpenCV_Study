@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\BaseLocation.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\stdafx.cpp">
+    <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\CarPlateRecongize.cpp">
+    <ClCompile Include="BaseLocation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\main.cpp">
+    <ClCompile Include="CarPlateRecongize.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\BaseLocation.h">
+    <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\targetver.h">
+    <ClInclude Include="targetver.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\stdafx.h">
+    <ClInclude Include="BaseLocation.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\CarPlateRecongize.h">
+    <ClInclude Include="CarPlateRecongize.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
