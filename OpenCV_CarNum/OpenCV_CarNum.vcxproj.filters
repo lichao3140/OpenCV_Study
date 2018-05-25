@@ -24,7 +24,7 @@
     <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\CarPlateRecongize.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\OpenCV_carPlate.cpp">
+    <ClCompile Include="..\..\..\..\..\BaiduYunDownload\代码\DN_OpenCV_carPlate\DN_OpenCV_carPlate\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
