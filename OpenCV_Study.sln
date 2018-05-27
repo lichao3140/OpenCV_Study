@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_Inception", "OpenCV_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_FindLanes", "OpenCV_FindLanes\OpenCV_FindLanes.vcxproj", "{25BFD7F7-C56B-422F-ADCB-2EECEEB35D1C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_BlendMask", "OpenCV_BlendMask\OpenCV_BlendMask.vcxproj", "{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{25BFD7F7-C56B-422F-ADCB-2EECEEB35D1C}.Release|x64.Build.0 = Release|x64
 		{25BFD7F7-C56B-422F-ADCB-2EECEEB35D1C}.Release|x86.ActiveCfg = Release|Win32
 		{25BFD7F7-C56B-422F-ADCB-2EECEEB35D1C}.Release|x86.Build.0 = Release|Win32
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Debug|x64.ActiveCfg = Debug|x64
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Debug|x64.Build.0 = Debug|x64
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Debug|x86.ActiveCfg = Debug|Win32
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Debug|x86.Build.0 = Debug|Win32
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Release|x64.ActiveCfg = Release|x64
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Release|x64.Build.0 = Release|x64
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Release|x86.ActiveCfg = Release|Win32
+		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
