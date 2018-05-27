@@ -7,12 +7,12 @@ using namespace cv;
 using namespace cv::face;
 using namespace std;
 
-const String  lbpfilePath = "E:/lichao/study/opencv/opencv3.2/opencv/build/etc/lbpcascades/lbpcascade_frontalface.xml";
+const String  lbpfilePath = "E:/lichao/study/opencv/opencv3.4/opencv/build/etc/lbpcascades/lbpcascade_frontalface.xml";
 bool myDetector(InputArray image, OutputArray faces, CascadeClassifier *face_cascade);
 void face_alignment(Mat &face, Point left, Point right, Rect roi);
 
 int main(int argc, char** argv) {
-	Mat img = imread("E:/lichao/study/opencv/img/model.jpg");
+	Mat img = imread("E:/lichao/study/opencv/img/model.png");
 	namedWindow("input", CV_WINDOW_AUTOSIZE);
 	imshow("input", img);
 
@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
 	facemark->setFaceDetector((FN_FaceDetector)myDetector, &face_cascade);
 
 	// 加载模型数据
-	facemark->loadModel("E:/lichao/study/opencv/GSOC2017/GSOC2017 - master/data/lbfmodel.yaml");
+	facemark->loadModel("E:/lichao/study/opencv/GSOC2017/GSOC2017-master/data/lbfmodel.yaml");
 	cout << "Loaded model" << endl;
 
 	// 开始检测
