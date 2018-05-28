@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_FindLanes", "OpenCV_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_BlendMask", "OpenCV_BlendMask\OpenCV_BlendMask.vcxproj", "{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_Yolov", "OpenCV_Yolov\OpenCV_Yolov.vcxproj", "{10A5B43E-08C3-440A-88FE-72650C938FD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Release|x64.Build.0 = Release|x64
 		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Release|x86.ActiveCfg = Release|Win32
 		{975FF7C6-F4DD-44D2-92DC-526B0F6D1B46}.Release|x86.Build.0 = Release|Win32
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Debug|x64.ActiveCfg = Debug|x64
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Debug|x64.Build.0 = Debug|x64
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Debug|x86.ActiveCfg = Debug|Win32
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Debug|x86.Build.0 = Debug|Win32
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Release|x64.ActiveCfg = Release|x64
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Release|x64.Build.0 = Release|x64
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Release|x86.ActiveCfg = Release|Win32
+		{10A5B43E-08C3-440A-88FE-72650C938FD9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
