@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_Yolov", "OpenCV_Yolo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_Histogram", "OpenCV_Histogram\OpenCV_Histogram.vcxproj", "{13EAE88A-A613-4BF9-8236-457FFCAC525E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCV_AndmarkDelaunay", "OpenCV_AndmarkDelaunay\OpenCV_AndmarkDelaunay.vcxproj", "{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -141,6 +143,14 @@ Global
 		{13EAE88A-A613-4BF9-8236-457FFCAC525E}.Release|x64.Build.0 = Release|x64
 		{13EAE88A-A613-4BF9-8236-457FFCAC525E}.Release|x86.ActiveCfg = Release|Win32
 		{13EAE88A-A613-4BF9-8236-457FFCAC525E}.Release|x86.Build.0 = Release|Win32
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Debug|x64.ActiveCfg = Debug|x64
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Debug|x64.Build.0 = Debug|x64
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Debug|x86.ActiveCfg = Debug|Win32
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Debug|x86.Build.0 = Debug|Win32
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Release|x64.ActiveCfg = Release|x64
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Release|x64.Build.0 = Release|x64
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Release|x86.ActiveCfg = Release|Win32
+		{A61A5FC6-927B-4C9D-B8A9-7F8FF051712C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
